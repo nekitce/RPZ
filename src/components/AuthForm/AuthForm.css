@@ -1,0 +1,47 @@
+.auth-form {
+    background-image: url('C:\ProgramFront\react-tutorial\images\1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Высота будет определяться содержимым */
+    width: 50%; /* Ширина будет 80% от родительского элемента */
+  }
+  
+  .auth-form__label {
+    font-weight: bold;
+    color: black;
+    font-size: 3rem; /* Увеличение размера шрифта */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-form__input {
+    width: 300px; /* Увеличение ширины поля ввода */
+    height: 50px; /* Увеличение высоты поля ввода */
+    font-size: 2rem; /* Увеличение размера шрифта */
+    text-align: center;
+  }
+
+  .auth-form__submit {
+    width: 300px; /* Увеличиваем ширину кнопки */
+    height: 50px; /* Увеличиваем высоту кнопки */
+    font-size: 30px; /* Увеличиваем размер шрифта */
+  }
+
+  .login-page__title:before {
+    content: "Авторизация";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); /* Добавляем translateY(-50%) */
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0rem;
+    top: 20%; /* Смещаем текст выше на 30% от верхней границы */
+  }
